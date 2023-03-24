@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.navbarContainer {
+    background-color: #00ADB6;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbarContainer h1 {
+    font-family: 'Pacifico', cursive;
+    color: #FFF;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.list {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center; 
+}
+
+.item a{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.4em;
+    padding: 0 1em;
+    transition: all .2s linear;
+}
+
+.item a:hover{
+    color: black;
+}
+
+.hamburger{
+    display: none;
+}
+
+
+

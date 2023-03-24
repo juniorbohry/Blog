@@ -1,0 +1,20 @@
+.item {
+    max-width: 1000px;
+    padding: 0 1em 1em 1em;
+    list-style: none;
+    margin-bottom: 2em;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    transition: all .1s linear;
+}
+
+.item:hover {
+    border-bottom: 5px solid #00ADB6;
+    border-left: 5px solid #00ADB6;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px -3px #00ADB6
+}
+
+.author {
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+.footerContainer {
+    background-color: #00ADB6;
+    display: flex;
+    justify-content: center;
+    padding: 1.5em 2em 1.5em 2em;
+}
+
+.footerContainer a {
+    font-size: 2em;
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+}
