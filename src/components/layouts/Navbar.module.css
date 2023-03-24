@@ -68,7 +68,7 @@
 
     .item a{
         font-size: 1.25em;
-        padding: 0 calc(0.3em + ((100vw - 300px) / 285) * 9);
+        padding: 3vw;
     }
 }
 
